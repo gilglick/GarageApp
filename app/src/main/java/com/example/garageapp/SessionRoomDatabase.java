@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-@Database(entities = {Session.class}, version = 2,exportSchema = false)
+@Database(entities = {Session.class}, version = 1,exportSchema = false)
 public abstract class SessionRoomDatabase extends RoomDatabase {
     public abstract SessionDao sessionDao();
     private static volatile SessionRoomDatabase sessionRoomDatabase;

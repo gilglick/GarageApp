@@ -10,12 +10,12 @@ public interface SessionDao {
     @Insert
     void insert(Session session);
 
-    @Query("SELECT * FROM Session WHERE start = (SELECT MAX(start) FROM Session)")
+    @Query("SELECT * FROM session WHERE start = (SELECT MAX(start) FROM session)")
     Session getLastSession();
 
     @Delete
     void delete(Session session);
 
-    @Query("SELECT SUM(total) FROM Session")
+    @Query("SELECT SUM(total) FROM session")
     long totalSpendsTime();
 }
