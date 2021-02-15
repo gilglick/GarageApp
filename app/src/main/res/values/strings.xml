@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GarageApp</string>
+    <string name="garage_name">Garage Name:</string>
+    <string name="total_time_spent">Total time spent</string>
+    <string name="last_seen">Last seen:</string>
+    <string name="is_open">is open?</string>
+    <string name="address">Address:</string>
+    <string name="cars">Cars:</string>
+    <string name="car_image">Car image</string>
+</resources>
