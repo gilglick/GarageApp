@@ -11,5 +11,5 @@ library and calculates usage time with the help of Room library.
 
 
 <br><br>
-<img src = "Images/Owner.JPG" height = 600>
-<img src = "Images/Client.JPG" height = 600>
+<img src = "GarageImages/ClientGarage.png" height = 600>
+<img src = "GarageImages/OwnerGarage.png" height = 600>
